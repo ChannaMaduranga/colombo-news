@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+  padding: 0;
+}
+.container{
+  width: 80%;
+
+  padding-left: 10%;
+}
+
+
+.navbar{
+  background-color: #03316F ;
+  padding: 5px;
+  margin-top: 15px;
+
+
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 50px;
+  position: relative;
+
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding-right: 50px;
+  padding-left: 40px;
+  font-size: 16px;
+  font-family: serif;
+}
+.navbar ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 60%;
+}
+h1{
+  font-size: 45px;
+  font-family: sans-serif;
+}
+.colomboPage a{
+  text-decoration: none;
+  color: #03316F ;
+}
+h5{
+  padding-left: 30px;
+}
+.loading-news{
+  background-image: linear-gradient(to left, rgba(10, 79, 173 ,0), rgba(10, 79, 173 ,1));
+  padding-left: 5px;
+}
+.loading-news h4{
+  color:#fff;
+}
+.colomboPage img{
+  width: 75px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 10px;
+
+}
+.content{
+
+  background-image: linear-gradient(to top, rgba(10, 79, 173,0), rgba(10, 79, 173,1));
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.content h3{
+  text-align: center;
+  color: #000;
+  font-size:30px ;
+  font-family: serif;
+}
+.top-news{
+
+
+  position: relative;
+  /*background-image: linear-gradient(to top, rgba(13, 220, 161,0), rgba(13, 220, 161,1));*/
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+
+
+}
+.top-news p{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: Bold;
+  padding:10px;
+  text-align: justify;
+  font-family: sans-serif;
+  padding-bottom: 25px;
+}
+.top-news h4{
+  color: #fff;
+  text-decoration: Bold;
+  font-size: 36px;
+  text-align: center;
+}
+.top-news a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========About us page style===*/
+
+.about h3{
+  text-align: center;
+  font-size: 36px;
+  color:#03316F;
+}
+.about p{
+  font-size: 20px;
+  text-align: center;
+}
+.about span{
+  font-size: 30px;
+  color: #03316F;
+  text-decoration: bold;
+}
+
+.about h6{
+  font-size: 24px;
+}
+
+
+/*===== Feedback ===*/
+
+.Feedback h3{
+  text-align: center;
+  font-size: 36px;
+  color:#03316F;
+}
+.contact-col{
+
+	margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.contact-col input, .contact-col textarea{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border:1px solid #03316F;
+	box-sizing: border-box;
+}
+.blue-btn{
+
+	border-color: #03316F;
+	width:30px;
+}
+.blue-btn:hover{
+	color:#fff;
+	background-color: #03316F;
+}
+.submit-reset input{
+	width:150px;
+	margin-right: 10px;
+}
+
+
+/*====Advertising page ====*/
+
+.Advertising h3{
+  text-align: center;
+  font-size: 36px;
+  color:#03316F;
+}
+.Advertising h4{
+  font-size: 24px;
+}
+
+.contact-col label{
+  font-size:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- FOOTER -------------------*/
+.footer{
+ background-color:#03316F;
+ padding: 5px;
+ margin-bottom: 10px;
+ height: 25px;
+}
+.footer p{
+ text-align: center;
+ color: #fff;
+ font-size: 12px;
+ font-family: Consolas;
+}
+.footer h6{
+  color:#fff;
+  text-align: center;
+  font-size: 13px;
+
+}
+
+
+@media(max-width:1350px){
+  .navbar ul li {
+    display: block;
+    text-align: center;
+
+  }
+  .top-news h4{
+    font-size: 18px;
+  }
+  .top-news p{
+    font-size: 14px;
+    padding:10px;
+}
+.top-news{
+  padding-bottom:20px;
+}
+.footer p{
+   font-size: 11px;
+}
+.footer h6{
+  font-size: 12px;
+}
+.footer{
+ background-color:#03316F;
+ padding: 5px;
+ margin-bottom: 25px;
+ height: 25px;
+}
+
+}
